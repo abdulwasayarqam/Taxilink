@@ -383,6 +383,10 @@
                                             data-bs-dismiss="modal"
                                             aria-label="Close"></button>
                                     </div>
+                                    <div class="d-flex ">
+                                        <h5 class="pe-4">User Name</h5>
+                                        <h6>{{$dummyEmployeeNames}}</h6>
+                                    </div>
                                     <form action="{{ route('employee-update', ['id' => $employee->id]) }}" method="post" class="p-4 border rounded shadow" style="max-width: 900px; margin: auto;">
                                         @csrf
                                         <div class="modal-body">

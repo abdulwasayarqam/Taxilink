@@ -129,17 +129,18 @@
               </a>
 
                 <a href="{{route('employee-list')}}" class="menu-link">
-                    <i class="menu-icon users-list ti ti-layout-sidebar"></i>
+                    <i class="menu-icon ti ti-users"></i>
                     <div data-i18n="Employees">Employees</div>
                 </a>
 
                 <a href="{{route('association-list')}}" class="menu-link">
-                    <i class="menu-icon tf-icons ti ti-layout-sidebar"></i>
+
+                    <i class="menu-icon  ti ti-location"></i>
                     <div data-i18n="Association ">Association </div>
                 </a>
 
                 <a href="{{route('vehicles-list')}}" class="menu-link">
-                    <i class="menu-icon tf-icons ti ti-layout-sidebar"></i>
+                    <i class="menu-icon ti ti-car"></i>
                     <div data-i18n="Vehicles ">Vehicles</div>
                 </a>
 

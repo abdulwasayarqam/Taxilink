@@ -26,6 +26,12 @@
 
                         <div class="row mb-4">
                             <div class="col">
+                                <label for="vehicle_id" class="form-label">Vehicle Id</label>
+                                <input type="text" name="vehicle_id" id="vehicle_id" class="form-control" placeholder="Enter Vehicle Id" />
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col">
                                 <label for="owner_name" class="form-label">Owner Name</label>
                                 <input type="text" name="owner_name" id="owner_name" class="form-control" placeholder="Enter Owner Name" />
                             </div>
@@ -157,6 +163,12 @@
                                         @csrf
                                         <div class="modal-body">
                                             <!-- Similar Fields for Update -->
+                                            <div class="row mb-4">
+                                                <div class="col">
+                                                    <label for="vehicle_id" class="form-label">Vehicle Id</label>
+                                                    <input type="text" name="vehicle_id" value="{{ $vehicle->vehicle_id }}" id="vehicle_id" class="form-control" placeholder="Enter Vehicle Id" />
+                                                </div>
+                                            </div>
                                             <div class="row mb-4">
                                                 <div class="col">
                                                     <label for="owner_name" class="form-label">Owner Name</label>
