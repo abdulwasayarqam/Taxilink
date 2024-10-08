@@ -47,7 +47,7 @@ Route::post('/vehicles-store', [App\Http\Controllers\VehiclesController::class, 
 Route::get('/vehicles-delete/{id}', [App\Http\Controllers\VehiclesController::class, 'delete'])->name('vehicles-delete');
 Route::post('/vehicles-update/{id}', [App\Http\Controllers\VehiclesController::class, 'update'])->name('vehicles-update');
 
-Route::get('/routes-modules-list', [App\Http\Controllers\VehiclesController::class, 'index'])->name('routes-modules-list');
-Route::post('/routes-modules-store', [App\Http\Controllers\VehiclesController::class, 'store'])->name('routes-modules-store');
-Route::get('/routes-modules-delete/{id}', [App\Http\Controllers\VehiclesController::class, 'delete'])->name('routes-modules-delete');
-Route::post('/routes-modules-update/{id}', [App\Http\Controllers\VehiclesController::class, 'update'])->name('routes-modules-update');
+Route::get('/routes-modules-list', [App\Http\Controllers\RoutesModulesController::class, 'index'])->name('routes-modules-list');
+Route::post('/routes-modules-store', [App\Http\Controllers\RoutesModulesController::class, 'store'])->name('routes-modules-store');
+Route::get('/routes-modules-delete/{id}', [App\Http\Controllers\RoutesModulesController::class, 'delete'])->name('routes-modules-delete');
+Route::post('/routes-modules-update/{id}', [App\Http\Controllers\RoutesModulesController::class, 'update'])->name('routes-modules-update');
